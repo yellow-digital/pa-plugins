@@ -1,0 +1,8 @@
+[
+   {"name":"agenda"},
+   {"name":"debugger"},
+   {"name":"memory"},
+   {"name":"persist-config"},
+   {"name":"persist-memory"},
+   {"name":"persist-messages"}
+]
