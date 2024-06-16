@@ -1,6 +1,7 @@
 [
    {"name":"agenda"},
    {"name":"debugger"},
+   {"name":"knmi"},
    {"name":"memory"},
    {"name":"persist-config"},
    {"name":"persist-memory"},
