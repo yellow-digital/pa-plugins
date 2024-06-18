@@ -16,6 +16,21 @@ const STORAGE_KEY = 'config'
 export default async function (app, { watch }) {
     const { state } = app
     
+    {
+        const tool = {
+            triggers: [
+                '> reset config'
+            ],
+            func(a) {
+                localStorage.removeItem(STORAGE_KEY)
+                app.write('config cleared')
+            }
+        }
+
+        app.commands.push(tool)
+        app.state.samples.push(tool.triggers[0])
+    }
+
     const saveDebounced = debounce((messages = []) => {
         // console.log('SAVE')
         keep(messages)

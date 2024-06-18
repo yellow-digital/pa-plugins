@@ -3,6 +3,9 @@
    {"name":"debugger"},
    {"name":"knmi"},
    {"name":"memory"},
+   {"name":"radio"},
+   {"name":"summarize"},
+   {"name":"profile"},
    {"name":"persist-config"},
    {"name":"persist-memory"},
    {"name":"persist-messages"}
